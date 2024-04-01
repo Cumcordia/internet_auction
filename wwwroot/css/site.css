@@ -1,45 +1,37 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+html {
+    font-size: 14px;
 }
 
-.container {
-    max-width: 400px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    text-align: center;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
-    cursor: pointer;
-}
-
-    input[type="submit"]:hover {
-        background-color: #45a049;
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
     }
-
-.error {
-    color: red;
-    margin-bottom: 15px;
 }
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    padding: 10px;
+    background-color: rgb(229, 224, 226);
+}
+
+.nav {
+    background-color: rgba(138, 129, 133, 0.6);
+    border: 1px solid black;
+}
+
+.nav-link {
+    color: black;
+}
+
+    .nav-link:hover {
+        color: white;
+    }

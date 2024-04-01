@@ -146,3 +146,4 @@ F:\admin\desk\auction\obj\Debug\net8.0\auction.genruntimeconfig.cache
 F:\admin\desk\auction\obj\Debug\net8.0\ref\auction.dll
 F:\admin\desk\auction\bin\Debug\net8.0\Npgsql.dll
 F:\admin\desk\auction\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\admin\desk\auction\obj\Debug\net8.0\auction.sourcelink.json
