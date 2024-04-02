@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\auction.bundle.scp.css"
     },
     {
+      "Id": "F:\\admin\\desk\\auction\\wwwroot\\css\\indexstyle.css",
+      "PackagePath": "staticwebassets\\css\\indexstyle.css"
+    },
+    {
       "Id": "F:\\admin\\desk\\auction\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FHEyIhuoXKuRSsrmWbfuWvyzNHIpelSO0tpCtHZO5dI=",
+  "Hash": "bOZwY2Bz4EEZ5JPXG/2Ekgk7sNjDKeEuhQOdGozbLWk=",
   "Source": "auction",
   "BasePath": "_content/auction",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\admin\\desk\\auction\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\auction.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\admin\\desk\\auction\\wwwroot\\css\\indexstyle.css",
+      "SourceId": "auction",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\admin\\desk\\auction\\wwwroot\\",
+      "BasePath": "_content/auction",
+      "RelativePath": "css/indexstyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\indexstyle.css"
     },
     {
       "Identity": "F:\\admin\\desk\\auction\\wwwroot\\css\\site.css",
