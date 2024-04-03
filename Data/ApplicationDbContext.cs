@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Auctions.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace auction.Data
@@ -9,5 +10,7 @@ namespace auction.Data
             : base(options)
         {
         }
+        public DbSet<Listing> Listings { get; set; }
+        public DbSet<Bid> Bids { get; set; }
     }
 }
