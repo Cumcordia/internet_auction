@@ -1,5 +1,4 @@
-﻿using auction.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -21,5 +20,6 @@ namespace Auctions.Models
         public IdentityUser? User { get; set; }
 
         public List<Bid>? Bids { get; set; }
+        public List<Comment>? Comments { get; set; }
     }
 }
