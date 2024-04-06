@@ -14,7 +14,7 @@ namespace Auctions.Data.Migrations
                 name: "Listings",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "serial", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "varchar(450)", nullable: false),
                     Description = table.Column<string>(type: "varchar(450)", nullable: false),
@@ -38,11 +38,11 @@ namespace Auctions.Data.Migrations
                 name: "Bids",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "serial", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Price = table.Column<double>(type: "float", nullable: false),
                     IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
-                    ListingId = table.Column<int>(type: "int", nullable: true)
+                    ListingId = table.Column<int>(type: "serial", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -64,11 +64,11 @@ namespace Auctions.Data.Migrations
                 name: "Comments",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "serial", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Content = table.Column<string>(type: "varchar(450)", nullable: false),
                     IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
-                    ListingId = table.Column<int>(type: "int", nullable: true)
+                    ListingId = table.Column<int>(type: "serial", nullable: true)
                 },
                 constraints: table =>
                 {
