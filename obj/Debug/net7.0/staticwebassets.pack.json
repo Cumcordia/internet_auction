@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Auctions.bundle.scp.css"
     },
     {
+      "Id": "F:\\admin\\desk\\auction\\wwwroot\\Images\\Приколы-для-даунов-разное-8391391.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Приколы-для-даунов-разное-8391391.jpeg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\auction\\wwwroot\\Images\\Приколы-для-даунов-разное-рост-8393398.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Приколы-для-даунов-разное-рост-8393398.jpeg"
+    },
+    {
       "Id": "F:\\admin\\desk\\auction\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

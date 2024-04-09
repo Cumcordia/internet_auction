@@ -4,38 +4,38 @@
     ViewData["Title"] = "Index";
 }
 
-<div class="container" style="margin-top: 5px;">
+<div class="container-category">
 
-    <div class="row">
-        <div class="col">
+    <div class="row-category">
+        <div class="col-category">
             <a asp-action="Tech" asp-controller="Category" class="btn btn-outline-primary">Техника</a>
         </div>
-        <div class="col">
+        <div class="col-category">
             <a asp-action="Vintage" asp-controller="Category" class="btn btn-outline-primary">Винтаж</a>
         </div>
-        <div class="col">
+        <div class="col-category">
             <a asp-action="Art" asp-controller="Category" class="btn btn-outline-primary">Искусство</a>
         </div>
-        <div class="col">
+        <div class="col-category">
             <a asp-action="Books" asp-controller="Category" class="btn btn-outline-primary">Книги</a>
         </div>
-        <div class="col">
+        <div class="col-category">
             <a asp-action="Fashion" asp-controller="Category" class="btn btn-outline-primary">Мода</a>
         </div>
-        <div class="col">
+        <div class="col-category">
             <a asp-action="Music" asp-controller="Category" class="btn btn-outline-primary">Музыка</a>
         </div>
-        <div class="col">
+        <div class="col-category">
             <a asp-action="Antiques" asp-controller="Category" class="btn btn-outline-primary">Антиквариат</a>
         </div>
     </div>
 </div>
 
-<h2>Active Listings</h2>
+<h2>Активные лоты</h2>
 
 @foreach(var listing in Model)
 {
-    <div class="container" style="background-color: rgba(138, 129, 133, 0.6); margin-top:50px; margin-bottom: 50px; padding: 20px; border-radius:10px;">
+    <div class="container-lot">
         <div class="row">
             <div class="col col-xs-6 col-lg-5">
                 <img src="~/Images/@listing.ImagePath" style="max-width: 400px; max-height: 400px;" />
@@ -43,8 +43,8 @@
             <div class="col col-xs-6 col-lg-7">
                 <h5><a asp-action="Details" asp-route-id="@listing.Id" style="color: black;">@listing.Title</a></h5>
                 <div>@listing.Description</div>
-                <div>Bid: $@listing.Price.ToString("N2")</div>
-                <div>Listed by: @listing.User.Email</div>
+                <div>Ставок: $@listing.Price.ToString("N2")</div>
+                <div>Лот от: @listing.User.Email</div>
             </div>
         </div>
 
@@ -52,7 +52,7 @@
 }
 @if(!Model.Any())
 {
-    <p>No Active Listings</p>
+    <p>На данный момент никто не разместил лот</p>
 }
 
 @{
@@ -64,14 +64,14 @@
     <a asp-action="Index"
        asp-route-pageNumber="@(Model.PageIndex - 1)"
        class="btn btn-default @prevDisabled">
-        Previous
+        Предыдущая
     </a>
     <div class="btn" style="cursor: default">
-        Page @Model.PageIndex of @Model.TotalPages
+        Страница @Model.PageIndex из @Model.TotalPages
     </div>
     <a asp-action="Index"
        asp-route-pageNumber="@(Model.PageIndex + 1)"
        class="btn btn-default @nextDisabled">
-        Next
+        Следующая
     </a>
 </div>

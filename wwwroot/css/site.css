@@ -9,7 +9,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #123C69;
 }
 
 html {
@@ -20,7 +20,9 @@ html {
 body {
     margin-bottom: 60px;
     padding: 10px;
-    background-color: rgb(208, 225, 249);
+    background-color: rgb(238, 226, 220);
+    padding-top: 10px;
+    font-family: Arial, sans-serif;
 }
 .nav{
     background-color: rgba(138, 129, 133, 0.6);
@@ -32,13 +34,6 @@ body {
 .nav-link:hover{
     color:white;
 }
-body {
-    padding-top: 10px;
-    background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
-}
-
-
 
 .navbar-brand {
     font-weight: bold;
@@ -65,7 +60,6 @@ body {
 
 .btn {
     font-size: 18px;
-    border-radius: 30px;
 }
 
 .category-container {
@@ -73,23 +67,23 @@ body {
     margin-top: 20px;
 }
 
-.category {
+/*.category {
     display: inline-block;
     padding: 15px 30px;
     margin: 0 15px 15px 0;
-    border: 2px solid #007bff;
+    border: 2px solid rgb(18, 60, 105);
     border-radius: 30px;
     background-color: #fff;
-    color: #007bff;
+    color: rgb(18, 60, 105);
     font-size: 20px;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
     .category:hover {
-        background-color: #007bff;
+        background-color: rgb(18, 60, 105);
         color: #fff;
-    }
+    }*/
 
 h1 {
     color: #333;
@@ -104,7 +98,27 @@ p {
     line-height: 1.6;
 }
 
-.col{
-
+.row-category {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 150px;
 }
 
+.col-category {
+    justify-content: center;
+}
+
+
+
+.container-lot {
+    background-color: rgb(186, 178, 181);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-category {
+    margin-top: 5px;
+}

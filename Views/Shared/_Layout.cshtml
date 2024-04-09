@@ -17,18 +17,18 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="Index"><i class="fa fa-solid fa-house"></i> Active Listings</a>
+                            <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="Index"><i class="fa fa-solid fa-house"></i> Главное меню</a>
                         </li>
                         @if(User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="Create"><i class="fa fa-solid fa-plus"></i> Create Listing</a>
+                                <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="Create"><i class="fa fa-solid fa-plus"></i> Создать лот</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="MyListings"><i class="fa fa-solid fa-newspaper"></i> My Listings</a>
+                                <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="MyListings"><i class="fa fa-solid fa-newspaper"></i> Мои лоты</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="MyBids"><i class="fa fa-solid fa-sack-dollar"></i> My Bids</a>
+                                <a class="nav-link " asp-area="" asp-controller="Listings" asp-action="MyBids"><i class="fa fa-solid fa-sack-dollar"></i> Мои ставки</a>
                             </li>
                         }
                         <li class="nav-item" style="margin:auto;">

@@ -16,15 +16,15 @@
             {
                 @if(bid.IdentityUserId == userManager.GetUserId(User))
                 {
-                    <h5>Congratulations, you are the winner!</h5>
+                    <h5>Поздравляем, вы победитель!</h5>
                 }
                 else if (userManager.GetUserId(User) == Model.User.Id)
                 {
-                    <h5>@bid.User.UserName is the winner!</h5>
+                    <h5>@bid.User.UserName закрывает этот лот</h5>
                 }
                 else
                 {
-                    <h5>Bidding is closed!</h5>
+                    <h5>Лот закрыт!</h5>
                 }
             }
         }
@@ -49,14 +49,14 @@
                         <input type="submit" class="btn btn-primary">
                     </div>
                 </form>
-                <p>Bids submitted: @Model.Bids.Count</p>
+                <p>Ставок: @Model.Bids.Count</p>
                 <br>
                 @if(userManager.GetUserId(User) == Model.User.Id)
                 {
                     @foreach(var bid in Model.Bids)
                     {
                         <ul style="list-style-type: none;">
-                            @bid.User.UserName bidded $@bid.Price.ToString("N2").
+                            @bid.User.UserName поставил $@bid.Price.ToString("N2").
                         </ul>
                     }
                 }
@@ -64,13 +64,13 @@
             else
             {
                 <div>
-                    Bid: $ <input type="number" min="@Model.Price" step="1" name="Price" placeholder="@Model.Price.ToString("N2")" />
+                    Ставка: $ <input type="number" min="@Model.Price" step="1" name="Price" placeholder="@Model.Price.ToString("N2")" />
                     <input disabled type="submit" class="btn btn-primary">
                 </div>
-                <p>Bids submitted: @Model.Bids.Count</p>
+                <p>Количество ставок: @Model.Bids.Count</p>
             }
 
-            <div>Listed by: @Model.User.UserName</div>
+            <div>Лот от: @Model.User.UserName</div>
 
             @if (User.Identity.IsAuthenticated)
             {
@@ -78,7 +78,7 @@
                 {
                     @if(Model.IsSold == false)
                     {
-                        <a asp-action="CloseBidding" asp-route-id="@Model.Id">Close bidding</a>
+                        <a asp-action="CloseBidding" asp-route-id="@Model.Id">Закрыть досрочно лот</a>
                     }
                     
                 }
@@ -93,7 +93,7 @@
 {
     <div class="container">
         <form asp-action="AddComment" method="post">
-            <h6>Add comment</h6>
+            <h6>Добавить комментарий</h6>
             <textarea class="form-control" aria-label="With textarea" name="Content" style="width: 40%; vertical-align:top;"></textarea>
             <input type="hidden" name="IdentityUserId" class="form-control" value="@userManager.GetUserId(User)" />
             <input type="hidden" name="ListingId" class="form-control" value="@Model.Id" />
@@ -103,15 +103,15 @@
 }
 else
 {
-    <div class="container">       
-            <h6>Add comment</h6>
+    <div class="container">
+        <h6>Добавить комментарий</h6>
             <textarea class="form-control" aria-label="With textarea" name="Content" style="width: 40%; vertical-align:top;"></textarea>          
             <input type="submit" disabled class="btn btn-primary" style="display: inline-block; margin-top:10px;">       
     </div>   
 }
 <br>
 <div class="container">
-    <h6>Comments</h6>
+    <h6>Коментарии</h6>
     @foreach(var comment in Model.Comments)
     {
         <div style="border:1px solid lightgray; margin: 10px; padding: 10px; border-radius: 10px; width: 40%;">

@@ -5,7 +5,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h2>Create Listing</h2>
+<h2>Создать лот</h2>
 
 
 <hr />
@@ -14,48 +14,35 @@
         <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Title" class="control-label"></label>
-                <input asp-for="Title" class="form-control" />
+                <label asp-for="Title" class="control-label">Лот</label>
+                <input asp-for="Title" class="form-control"/>
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
+                <label asp-for="Description" class="control-label">Описание</label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Price" class="control-label">Starting Bid</label>
+                <label asp-for="Price" class="control-label">Минимальная цена</label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
+                <label asp-for="Image" class="control-label">Фото</label>
                 <input asp-for="Image" class="form-control" accept="image/*" style="width: 30%"/>
                 <span asp-validation-for="Image" class="text-danger"></span>
             </div>
-
-            <div class="dropdown">
-                <button class="dropbtn">Выберите один пункт</button>
-                <div class="dropdown-content">
-                    <a href="#">Пункт 1</a>
-                    <a href="#">Пункт 2</a>
-                    <a href="#">Пункт 3</a>
-                </div>
-
-            
+      
             <div class="form-group">
 
                 <input type="hidden" asp-for="IdentityUserId" class="form-control" value="@userManager.GetUserId(User)" />
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Создать" class="btn btn-primary" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

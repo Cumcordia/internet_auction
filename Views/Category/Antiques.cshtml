@@ -2,7 +2,29 @@
     ViewData["Title"] = "Antiques";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-category">
+
+    <div class="row-category">
+        <div class="col-category">
+            <a asp-action="Tech" asp-controller="Category" class="btn btn-outline-primary">Техника</a>
+        </div>
+        <div class="col-category">
+            <a asp-action="Vintage" asp-controller="Category" class="btn btn-outline-primary">Винтаж</a>
+        </div>
+        <div class="col-category">
+            <a asp-action="Art" asp-controller="Category" class="btn btn-outline-primary">Искусство</a>
+        </div>
+        <div class="col-category">
+            <a asp-action="Books" asp-controller="Category" class="btn btn-outline-primary">Книги</a>
+        </div>
+        <div class="col-category">
+            <a asp-action="Fashion" asp-controller="Category" class="btn btn-outline-primary">Мода</a>
+        </div>
+        <div class="col-category">
+            <a asp-action="Music" asp-controller="Category" class="btn btn-outline-primary">Музыка</a>
+        </div>
+        <div class="col-category">
+            <a asp-action="Antiques" asp-controller="Category" class="btn btn-outline-primary">Антиквариат</a>
+        </div>
+    </div>
 </div>

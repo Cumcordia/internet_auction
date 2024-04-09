@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>My Bids</h2>
+<h2>Мои ставки</h2>
 
 @foreach (var bid in Model)
 {
@@ -16,15 +16,15 @@
             <div class="col col-xs-6 col-lg-7">
                 <h5><a asp-action="Details" asp-route-id="@bid.Listing.Id" style="color: black;">@bid.Listing.Title</a></h5>
                 <div>@bid.Listing.Description</div>
-                <div>Bid: $@bid.Listing.Price.ToString("N2")</div>
-                <div>Listed by: @bid.Listing.User.Email</div>
+                <div>Ставка: $@bid.Listing.Price.ToString("N2")</div>
+                <div>Лот от: @bid.Listing.User.Email</div>
             </div>
         </div>
     </div>
 }
 @if (!Model.Any())
 {
-    <p>No Bids</p>
+    <p>Вы не ставили</p>
 }
 
 @{
@@ -36,14 +36,14 @@
     <a asp-action="Index"
        asp-route-pageNumber="@(Model.PageIndex - 1)"
        class="btn btn-default @prevDisabled">
-        Previous
+        Предыдущая
     </a>
     <div class="btn" style="cursor: default">
-        Page @Model.PageIndex of @Model.TotalPages
+        Страница @Model.PageIndex из @Model.TotalPages
     </div>
     <a asp-action="Index"
        asp-route-pageNumber="@(Model.PageIndex + 1)"
        class="btn btn-default @nextDisabled">
-        Next
+        Следующая
     </a>
 </div>
