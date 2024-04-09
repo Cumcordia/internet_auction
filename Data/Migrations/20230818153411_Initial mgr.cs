@@ -21,8 +21,9 @@ namespace Auctions.Data.Migrations
                     Price = table.Column<double>(type: "float", nullable: false),
                     ImagePath = table.Column<string>(type: "varchar(450)", nullable: false),
                     IsSold = table.Column<bool>(type: "bool", nullable: false),
-                    IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false)
-                },
+                    IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
+/*                    Category = table.Column<string>(type: "varchar(450)", nullable: false)
+*/                },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Listings", x => x.Id);
@@ -42,8 +43,9 @@ namespace Auctions.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Price = table.Column<double>(type: "float", nullable: false),
                     IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
-                    ListingId = table.Column<int>(type: "serial", nullable: true)
-                },
+                    ListingId = table.Column<int>(type: "serial", nullable: true),
+/*                    Category = table.Column<string>(type: "varchar(450)", nullable: false)
+*/                },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Bids", x => x.Id);

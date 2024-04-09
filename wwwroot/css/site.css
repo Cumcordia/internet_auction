@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  padding: 10px;
-  background-color: rgb(229, 224, 226);
+    margin-bottom: 60px;
+    padding: 10px;
+    background-color: rgb(208, 225, 249);
 }
 .nav{
     background-color: rgba(138, 129, 133, 0.6);
@@ -31,4 +31,83 @@ body {
 }
 .nav-link:hover{
     color:white;
+}
+body {
+    padding-top: 10px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    container font-size: 18px;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #007bff;
+    }
+
+.form-control.search-input {
+    width: 570px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+
+.btn {
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.category-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.category {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 15px 15px 0;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    .category:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.col{
+
+}
+
+.form-control {
+    width: 1000px;
 }
