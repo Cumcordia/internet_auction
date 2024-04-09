@@ -42,7 +42,7 @@ namespace Auctions.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Price = table.Column<double>(type: "float", nullable: false),
                     IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
-                    ListingId = table.Column<int>(type: "serial", nullable: true)
+                    ListingId = table.Column<int>(type: "serial", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -68,7 +68,7 @@ namespace Auctions.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Content = table.Column<string>(type: "varchar(450)", nullable: false),
                     IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
-                    ListingId = table.Column<int>(type: "serial", nullable: true)
+                    ListingId = table.Column<int>(type: "serial", nullable: false)
                 },
                 constraints: table =>
                 {
