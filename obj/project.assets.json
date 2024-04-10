@@ -11801,23 +11801,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maksi\\.nuget\\packages\\": {},
-    "F:\\prog\\vsshared\\NuGetPackages": {}
+    "C:\\Users\\stem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\admin\\desk\\auction\\Auctions.csproj",
+      "projectUniqueName": "C:\\Users\\stem\\Desktop\\6t6h\\Auctions.csproj",
       "projectName": "Auctions",
-      "projectPath": "F:\\admin\\desk\\auction\\Auctions.csproj",
-      "packagesPath": "C:\\Users\\maksi\\.nuget\\packages\\",
-      "outputPath": "F:\\admin\\desk\\auction\\obj\\",
+      "projectPath": "C:\\Users\\stem\\Desktop\\6t6h\\Auctions.csproj",
+      "packagesPath": "C:\\Users\\stem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stem\\Desktop\\6t6h\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "F:\\prog\\vsshared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\maksi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stem\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11839,11 +11839,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11892,6 +11887,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11900,7 +11913,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
