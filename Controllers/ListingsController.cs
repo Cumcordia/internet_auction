@@ -103,6 +103,7 @@ namespace Auctions.Controllers
                     Description = listing.Description,
                     Price = listing.Price,                   
                     IdentityUserId = listing.IdentityUserId,
+                    Category = listing.Category,
                     ImagePath = fileName,
                 };
                 await _listingsService.Add(listObj);

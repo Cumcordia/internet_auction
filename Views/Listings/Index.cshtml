@@ -42,6 +42,7 @@
             </div>
             <div class="col col-xs-6 col-lg-7">
                 <h5><a asp-action="Details" asp-route-id="@listing.Id" style="color: black;">@listing.Title</a></h5>
+                <div>@listing.Category</div>
                 <div>@listing.Description</div>
                 <div>Ставок: $@listing.Price.ToString("N2")</div>
                 <div>Лот от: @listing.User.Email</div>

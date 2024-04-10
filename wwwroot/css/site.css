@@ -125,3 +125,8 @@ p {
 .container-category {
     margin-top: 5px;
 }
+
+.selector {
+    position: relative;
+    display: inline-block;
+}
