@@ -8,32 +8,32 @@
 
     <div class="row-category">
         <div class="col-category">
-            <a asp-action="Tech" asp-controller="Category" class="btn btn-outline-primary">Техника</a>
+            <a asp-action="Tech" asp-controller="Category" class="btn btn-outline-primary btn-category">Техника</a>
         </div>
         <div class="col-category">
-            <a asp-action="Vintage" asp-controller="Category" class="btn btn-outline-primary">Винтаж</a>
+            <a asp-action="Vintage" asp-controller="Category" class="btn btn-outline-primary btn-category">Винтаж</a>
         </div>
         <div class="col-category">
-            <a asp-action="Art" asp-controller="Category" class="btn btn-outline-primary">Искусство</a>
+            <a asp-action="Art" asp-controller="Category" class="btn btn-outline-primary btn-category">Искусство</a>
         </div>
         <div class="col-category">
-            <a asp-action="Books" asp-controller="Category" class="btn btn-outline-primary">Книги</a>
+            <a asp-action="Books" asp-controller="Category" class="btn btn-outline-primary btn-category">Книги</a>
         </div>
         <div class="col-category">
-            <a asp-action="Fashion" asp-controller="Category" class="btn btn-outline-primary">Мода</a>
+            <a asp-action="Fashion" asp-controller="Category" class="btn btn-outline-primary btn-category">Мода</a>
         </div>
         <div class="col-category">
-            <a asp-action="Music" asp-controller="Category" class="btn btn-outline-primary">Музыка</a>
+            <a asp-action="Music" asp-controller="Category" class="btn btn-outline-primary btn-category">Музыка</a>
         </div>
         <div class="col-category">
-            <a asp-action="Antiques" asp-controller="Category" class="btn btn-outline-primary">Антиквариат</a>
+            <a asp-action="Antiques" asp-controller="Category" class="btn btn-outline-primary btn-category">Антиквариат</a>
         </div>
     </div>
 </div>
 
 <h2>Активные лоты</h2>
 
-@foreach(var listing in Model)
+@foreach (var listing in Model)
 {
     <div class="container-lot">
         <div class="row">
@@ -51,7 +51,7 @@
 
     </div>
 }
-@if(!Model.Any())
+@if (!Model.Any())
 {
     <p>На данный момент никто не разместил лот</p>
 }
@@ -67,7 +67,7 @@
        class="btn btn-default @prevDisabled">
         Предыдущая
     </a>
-    <div class="btn" style="cursor: default">
+    <div class="btn1" style="cursor: default">
         Страница @Model.PageIndex из @Model.TotalPages
     </div>
     <a asp-action="Index"

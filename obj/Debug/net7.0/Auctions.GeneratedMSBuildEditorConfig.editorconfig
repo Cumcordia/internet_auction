@@ -9,95 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Auctions
 build_property.RootNamespace = Auctions
-build_property.ProjectDir = F:\admin\desk\auction\
+build_property.ProjectDir = C:\Users\qwerty\Desktop\internet_auction\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\admin\desk\auction
+build_property.MSBuildProjectDirectory = C:\Users\qwerty\Desktop\internet_auction
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/admin/desk/auction/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Category/Antiques.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Category/Antiques.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQW50aXF1ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Category/Art.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Category/Art.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Category/Books.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Category/Books.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Category/Fashion.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Category/Fashion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRmFzaGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Category/Music.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Category/Music.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcTXVzaWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Category/Tech.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Category/Tech.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVGVjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Category/Vintage.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Category/Vintage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVmludGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Home/Index.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Listings/Create.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Listings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Listings/Delete.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Listings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Listings/Details.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Listings/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Listings/Edit.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Listings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Listings/Index.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Listings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Listings/MyBids.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Listings/MyBids.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcTXlCaWRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Shared/Error.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/_ViewImports.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/_ViewStart.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/auction/Views/Shared/_Layout.cshtml]
+[C:/Users/qwerty/Desktop/internet_auction/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jkmmclmsm1
