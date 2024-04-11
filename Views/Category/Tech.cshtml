@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Tech";
+    ViewData["Title"] = "Техника";
 }
 
 <div class="container-category">
@@ -30,3 +30,25 @@
 </div>
 
 <h2>Активные лоты</h2>
+
+@* @foreach (var listing in Model)
+{
+    <div class="container-lot">
+        <div class="row">
+            <div class="col col-xs-6 col-lg-5">
+                <img src="~/Images/@listing.ImagePath" style="max-width: 400px; max-height: 400px;" />
+            </div>
+            <div class="col col-xs-6 col-lg-7">
+                <h5><a asp-action="Details" asp-route-id="@listing.Id" style="color: black;">@listing.Title</a></h5>
+                <div>@listing.Category</div>
+                <div>@listing.Description</div>
+                <div>Ставок: $@listing.Price.ToString("N2")</div>
+                <div>Лот от: @listing.User.Email</div>
+            </div>
+        </div>
+    </div>
+}
+@if (!Model.Any())
+{
+    <p>На данный момент никто не разместил лот</p>
+} *@

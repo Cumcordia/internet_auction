@@ -1,15 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Auctions.Models;
+using Auctions.Data.Services;
 
 namespace Auctions.Controllers
 {
     public class CategoryController : Controller
     {
+        private readonly IListingsService _listingsService;
+
+        public CategoryController(IListingsService listingsService)
+        {
+            _listingsService = listingsService;
+        }
+
         public IActionResult Tech()
         {
-            return View();
+            var techListings = _listingsService.GetByCategory("Tech"); // Получаем список лотов категории "Tech"
+            return View(techListings); // Передаем список лотов в представление
         }
+
         public IActionResult Vintage()
         {
             return View();
@@ -34,5 +44,6 @@ namespace Auctions.Controllers
         {
             return View();
         }
+
     }
 }

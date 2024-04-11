@@ -40,5 +40,10 @@ namespace Auctions.Data.Services
         {
             await _context.SaveChangesAsync();
         }
+        public IEnumerable<Listing> GetByCategory(string category)
+        {
+            return _context.Listings.Where(l => l.Category.Name == category).ToList();
+        }
+
     }
 }

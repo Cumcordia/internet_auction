@@ -1,15 +1,25 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-#nullable disable
-
 namespace Auctions.Data.Migrations
 {
-    /// <inheritdoc />
     public partial class Initialmgr : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+
+            migrationBuilder.CreateTable(
+                name: "Category",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "varchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Category", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Listings",
                 columns: table => new
@@ -22,7 +32,7 @@ namespace Auctions.Data.Migrations
                     ImagePath = table.Column<string>(type: "varchar(450)", nullable: false),
                     IsSold = table.Column<bool>(type: "bool", nullable: false),
                     IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
-                    Category = table.Column<string>(type: "varchar(450)", nullable: false)
+                    CategoryId = table.Column<int>(type: "int", nullable: false) // Добавляем внешний ключ для связи с категориями
                 },
                 constraints: table =>
                 {
@@ -33,7 +43,18 @@ namespace Auctions.Data.Migrations
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+
+                    table.ForeignKey(
+                        name: "FK_Listings_Category_Id", // Имя внешнего ключа
+                        column: x => x.CategoryId,
+                        principalTable: "Category", // Ссылка на таблицу категорий
+                        principalColumn: "Id", // Ссылка на первичный ключ таблицы категорий
+                        onDelete: ReferentialAction.Cascade); // Опциональное: действие при удалении
                 });
+
+
+
+
 
             migrationBuilder.CreateTable(
                 name: "Bids",
@@ -111,9 +132,30 @@ namespace Auctions.Data.Migrations
                 name: "IX_Listings_IdentityUserId",
                 table: "Listings",
                 column: "IdentityUserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Listings_CategoryId", // Индекс для внешнего ключа
+                table: "Listings",
+                column: "CategoryId");
+
+            migrationBuilder.InsertData(
+            table: "Category",
+            columns: new[] { "Id", "Name" },
+            values: new object[,]
+            {
+                { 1, "Tech" },
+                { 2, "Vintage" },
+                { 3, "Art" },
+                { 4, "Books" },
+                { 5, "Fashion" },
+                { 6, "Music" },
+                { 7, "Antique" }
+            },
+            columnTypes: new[] { "int", "varchar(450)" }
+            ) ;
+
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
@@ -124,6 +166,10 @@ namespace Auctions.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "Listings");
+
+            migrationBuilder.DropTable(
+                name: "Category");
+
         }
     }
 }

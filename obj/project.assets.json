@@ -11801,19 +11801,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qwerty\\.nuget\\packages\\": {}
+    "C:\\Users\\maksi\\.nuget\\packages\\": {},
+    "F:\\prog\\vsshared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\qwerty\\Desktop\\internet_auction\\Auctions.csproj",
+      "projectUniqueName": "F:\\admin\\desk\\internet_auction\\Auctions.csproj",
       "projectName": "Auctions",
-      "projectPath": "C:\\Users\\qwerty\\Desktop\\internet_auction\\Auctions.csproj",
-      "packagesPath": "C:\\Users\\qwerty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\qwerty\\Desktop\\internet_auction\\obj\\",
+      "projectPath": "F:\\admin\\desk\\internet_auction\\Auctions.csproj",
+      "packagesPath": "C:\\Users\\maksi\\.nuget\\packages\\",
+      "outputPath": "F:\\admin\\desk\\internet_auction\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "F:\\prog\\vsshared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maksi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11821,6 +11826,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11833,6 +11839,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11889,7 +11900,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

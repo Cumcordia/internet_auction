@@ -18,13 +18,15 @@ namespace Auctions.Controllers
         private readonly IBidsService _bidsService;
         private readonly ICommentsService _commentsService;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly ICategoryService _categoryService;
 
-        public ListingsController(IListingsService listingsService, IWebHostEnvironment webHostEnvironment, IBidsService bidsService, ICommentsService commentsService)
+        public ListingsController(IListingsService listingsService, IWebHostEnvironment webHostEnvironment, IBidsService bidsService, ICommentsService commentsService, ICategoryService categoryService)
         {
             _listingsService = listingsService;
             _webHostEnvironment = webHostEnvironment;  
             _bidsService = bidsService;
             _commentsService = commentsService;
+            _categoryService = categoryService;
         }
 
         // GET: Listings
@@ -76,34 +78,35 @@ namespace Auctions.Controllers
 
         // GET: Listings/Create
         public IActionResult Create()
-        {         
-            return View();
+        {
+            var categories = _categoryService.GetAllCategory(); // Получите список категорий из сервиса или репозитория
+            var listingVM = new ListingVM();
+            listingVM.Category = new SelectList(categories, "Id", "Name"); // Добавьте список категорий в модель представления
+            return View(listingVM);
         }
 
         // POST: Listings/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ListingVM listing)
         {
-           if(listing.Image != null) 
+            if (listing.Image != null)
             {
                 string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "Images");
                 string fileName = listing.Image.FileName;
                 string filePath = Path.Combine(uploadDir, fileName);
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                    listing.Image.CopyTo(fileStream);
+                    await listing.Image.CopyToAsync(fileStream);
                 }
 
                 var listObj = new Listing
                 {
                     Title = listing.Title,
                     Description = listing.Description,
-                    Price = listing.Price,                   
+                    Price = listing.Price,
                     IdentityUserId = listing.IdentityUserId,
-                    Category = listing.Category,
+                    CategoryId = listing.SelectedCategoryId, // Устанавливаем CategoryId равным SelectedCategoryId
                     ImagePath = fileName,
                 };
                 await _listingsService.Add(listObj);
@@ -111,6 +114,12 @@ namespace Auctions.Controllers
             }
             return View(listing);
         }
+
+
+
+
+
+
         [HttpPost]
         public async Task<ActionResult> AddBid([Bind("Id, Price, ListingId, IdentityUserId")] Bid bid)
         {

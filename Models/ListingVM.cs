@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,11 +14,17 @@ namespace Auctions.Models
         public double Price { get; set; }
         public IFormFile Image { get; set; }
         public bool IsSold { get; set; } = false;
-        public string Category { get; set; }
+
+        // Связь с категорией
+        public int SelectedCategoryId { get; set; }
+
+        public SelectList Category { get; set; }
+
+        public int CategoryId { get; set; }
 
         [Required]
-        public string? IdentityUserId { get; set; }
+        public string IdentityUserId { get; set; }
         [ForeignKey("IdentityUserId")]
-        public IdentityUser? User { get; set; }
+        public IdentityUser User { get; set; }
     }
 }

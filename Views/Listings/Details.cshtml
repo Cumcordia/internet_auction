@@ -1,9 +1,10 @@
 ﻿@model Auctions.Models.Listing
 @using Microsoft.AspNetCore.Identity
+@using Auctions.Models
 @inject UserManager<IdentityUser> userManager
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Лот";
 }
 
 @if(User.Identity.IsAuthenticated)
@@ -50,9 +51,14 @@
                     </div>
                 </form>
                 <p>Ставок: @Model.Bids.Count</p>
+
                 <div>
-                    <p>@Model.Category</p>
+                    @if (Model.CategoryId == 1)
+                    {
+                        <p>Техника</p>
+                    }
                 </div>
+
                 @if(userManager.GetUserId(User) == Model.User.Id)
                 {
                     @foreach(var bid in Model.Bids)
