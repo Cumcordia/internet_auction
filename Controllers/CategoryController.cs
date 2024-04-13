@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Auctions.Models;
 using Auctions.Data.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace Auctions.Controllers
 {
@@ -14,35 +15,91 @@ namespace Auctions.Controllers
             _listingsService = listingsService;
         }
 
-        public IActionResult Tech()
+        public async Task<IActionResult> Tech(int? pageNumber, string searchString)
         {
-            var techListings = _listingsService.GetByCategory("Tech"); // Получаем список лотов категории "Tech"
-            return View(techListings); // Передаем список лотов в представление
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Tech" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
-        public IActionResult Vintage()
+
+        public async Task<IActionResult> Vintage(int? pageNumber, string searchString)
         {
-            return View();
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Vintage" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
-        public IActionResult Music()
+        public async Task<IActionResult> Music(int? pageNumber, string searchString)
         {
-            return View();
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Music" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
-        public IActionResult Art()
+        public async Task<IActionResult> Art(int? pageNumber, string searchString)
         {
-            return View();
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Art" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
-        public IActionResult Books()
+        public async Task<IActionResult> Books(int? pageNumber, string searchString)
         {
-            return View();
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Books" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
-        public IActionResult Fashion()
+        public async Task<IActionResult> Fashion(int? pageNumber, string searchString)
         {
-            return View();
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Fashion" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
-        public IActionResult Antiques()
+        public async Task<IActionResult> Antiques(int? pageNumber, string searchString)
         {
-            return View();
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Antique" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
     }

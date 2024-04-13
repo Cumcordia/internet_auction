@@ -45,10 +45,16 @@ body {
     color: #333;
     container font-size: 18px;
     font-weight: bold;
+    background-color: rgb(18, 60, 105);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
 }
 
     .navbar-nav .nav-link:hover {
-        color: #123c69;
+        background-color: #fff;
+        color: rgb(18, 60, 105);
     }
 
 .form-control.search-input {
@@ -62,7 +68,7 @@ body {
     font-size: 18px;
 }
 
-/*.btn-category {
+.btn-category {
     background-color: rgb(18, 60, 105);
     color: #fff;
 }
@@ -71,7 +77,7 @@ body {
         background-color: #fff;
         color: rgb(18, 60, 105);
     }
-*/
+
 .btn {
     background-color: rgb(18, 60, 105);
     color: #fff;
@@ -137,8 +143,6 @@ p {
     justify-content: center;
     color: #123c69;
 }
-
-
 
 .container-lot {
     background-color: rgb(186, 178, 181);
