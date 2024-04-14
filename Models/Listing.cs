@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using NuGet.Packaging.Signing;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,6 +14,7 @@ namespace Auctions.Models
         public double Price { get; set; }
         public string ImagePath { get; set; }
         public bool IsSold { get; set; } = false;
+		public DateTime TimeOfClosure { get; set; }
 
         // Связь с категорией
         public int CategoryId { get; set; } // Внешний ключ для связи с таблицей категорий

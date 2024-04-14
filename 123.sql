@@ -8,4 +8,5 @@ drop table public."AspNetUsers" CASCADE;
 drop table public."Bids" CASCADE;
 drop table public."Comments" CASCADE ;
 drop table public."Listings" CASCADE;
+drop table public."Category" CASCADE;
 drop table public."__EFMigrationsHistory" CASCADE;

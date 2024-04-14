@@ -43,6 +43,15 @@ namespace Auctions.Controllers
 
             return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(), pageNumber ?? 1, pageSize));
         }
+        public async Task<IActionResult> CloseExpiredListings()
+        {
+            var expiredListings = await _listingsService.GetExpiredListingsAsync(); // Получить все лоты, время закрытия которых истекло
+            foreach (var listing in expiredListings)
+            {
+                await _listingsService.CloseBidding(listing.Id); // Закрыть лот
+            }
+            return RedirectToAction("Index"); // Перенаправить пользователя на главную страницу или другую подходящую страницу
+        }
         public async Task<IActionResult> MyListings(int? pageNumber)
         {
             var applicationDbContext = _listingsService.GetAll();
@@ -106,19 +115,15 @@ namespace Auctions.Controllers
                     Description = listing.Description,
                     Price = listing.Price,
                     IdentityUserId = listing.IdentityUserId,
-                    CategoryId = listing.SelectedCategoryId, // Устанавливаем CategoryId равным SelectedCategoryId
+                    CategoryId = listing.SelectedCategoryId,
                     ImagePath = fileName,
-                };
+					TimeOfClosure = listing.TimeOfClosure,
+				};
                 await _listingsService.Add(listObj);
                 return RedirectToAction("Index");
             }
             return View(listing);
         }
-
-
-
-
-
 
         [HttpPost]
         public async Task<ActionResult> AddBid([Bind("Id, Price, ListingId, IdentityUserId")] Bid bid)

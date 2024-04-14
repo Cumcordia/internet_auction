@@ -2,7 +2,7 @@
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<IdentityUser> userManager
 @{
-    ViewData["Title"] = "Лот";
+    ViewData["Title"] = "Создания лота";
 }
 
 <h2>Создать лот</h2>
@@ -28,11 +28,6 @@
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Image" class="control-label">Фото</label>
-                <input asp-for="Image" class="form-control" accept="image/*" style="width: 30%"/>
-                <span asp-validation-for="Image" class="text-danger"></span>
-            </div>
 
             <div class="form-group">
                 <label asp-for="SelectedCategoryId" class="control-label">Выберите категорию:</label>
@@ -42,6 +37,17 @@
                 <span asp-validation-for="SelectedCategoryId" class="text-danger"></span>
             </div>
 
+            <div>
+                <label class="control-label">Выберите дату окончания лота:</label>
+                <input asp-for="TimeOfClosure" class="form-control" type="datetime-local" name="TimeOfClosure" value="" />
+            </div>
+
+			<div class="form-group">
+				<label asp-for="Image" class="control-label">Фото</label>
+				<input asp-for="Image" class="form-control" accept="image/*" style="width: 30%" />
+				<span asp-validation-for="Image" class="text-danger"></span>
+			</div>
+            <br />
 
             <div class="form-group">
 

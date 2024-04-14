@@ -22,7 +22,7 @@ namespace auction.Data
             modelBuilder.Entity<Listing>()
                 .HasOne(l => l.Category)
                 .WithMany()
-                .HasForeignKey(l => l.CategoryId)
+				.HasForeignKey(l => l.CategoryId)
                 .IsRequired();
         }
 

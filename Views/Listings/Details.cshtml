@@ -52,22 +52,6 @@
                 </form>
                 <p>Ставок: @Model.Bids.Count</p>
 
-                <div>
-                    @if (Model.CategoryId == 1)
-                    {
-                        <p>Техника</p>
-                    }
-                </div>
-
-                @if(userManager.GetUserId(User) == Model.User.Id)
-                {
-                    @foreach(var bid in Model.Bids)
-                    {
-                        <ul style="list-style-type: none;">
-                            @bid.User.UserName поставил $@bid.Price.ToString("N2").
-                        </ul>
-                    }
-                }
             }
             else
             {
@@ -78,7 +62,47 @@
                 <p>Количество ставок: @Model.Bids.Count</p>
             }
 
+            @foreach (var bid in Model.Bids)
+            {
+                <ul style="list-style-type: none;">
+                    @bid.User.UserName поставил $@bid.Price.ToString("N2").
+                </ul>
+            }
+
+			<div>
+            <p>Категория:</p>
+                @switch (Model.CategoryId)
+                {
+                    case 1:
+                        <p>Техника</p>
+                        break;
+                    case 2:
+                        <p>Винтаж</p>
+                        break;
+                    case 3:
+                        <p>Искусство</p>
+                        break;
+                    case 4:
+                        <p>Книги</p>
+                        break;
+                    case 5:
+                        <p>Мода</p>
+                        break;
+                    case 6:
+                        <p>Музыка</p>
+                        break;
+                    case 7:
+                        <p>Антиквариат</p>
+                        break;
+                }
+            </div>
+
+			<p>Лот закрывается в: @Model.TimeOfClosure</p>
+
+
+
             <div>Лот от: @Model.User.UserName</div>
+            <br />
 
             @if (User.Identity.IsAuthenticated)
             {
@@ -86,7 +110,9 @@
                 {
                     @if(Model.IsSold == false)
                     {
+                        <div class="">
                         <a asp-action="CloseBidding" asp-route-id="@Model.Id">Закрыть досрочно лот</a>
+                        </div>
                     }
                     
                 }

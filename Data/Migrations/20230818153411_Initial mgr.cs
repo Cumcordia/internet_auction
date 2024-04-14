@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
+using NuGet.Packaging.Signing;
 
 namespace Auctions.Data.Migrations
 {
@@ -32,7 +33,8 @@ namespace Auctions.Data.Migrations
                     ImagePath = table.Column<string>(type: "varchar(450)", nullable: false),
                     IsSold = table.Column<bool>(type: "bool", nullable: false),
                     IdentityUserId = table.Column<string>(type: "varchar(450)", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false) // Добавляем внешний ключ для связи с категориями
+                    TimeOfClosure = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    CategoryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -45,11 +47,11 @@ namespace Auctions.Data.Migrations
                         onDelete: ReferentialAction.Cascade);
 
                     table.ForeignKey(
-                        name: "FK_Listings_Category_Id", // Имя внешнего ключа
+                        name: "FK_Listings_Category_Id",
                         column: x => x.CategoryId,
-                        principalTable: "Category", // Ссылка на таблицу категорий
-                        principalColumn: "Id", // Ссылка на первичный ключ таблицы категорий
-                        onDelete: ReferentialAction.Cascade); // Опциональное: действие при удалении
+                        principalTable: "Category",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
 

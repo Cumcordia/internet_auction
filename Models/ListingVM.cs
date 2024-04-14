@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using NuGet.Packaging.Signing;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -14,9 +15,10 @@ namespace Auctions.Models
         public double Price { get; set; }
         public IFormFile Image { get; set; }
         public bool IsSold { get; set; } = false;
+		public DateTime TimeOfClosure { get; set; }
 
-        // Связь с категорией
-        public int SelectedCategoryId { get; set; }
+		// Связь с категорией
+		public int SelectedCategoryId { get; set; }
 
         public SelectList Category { get; set; }
 

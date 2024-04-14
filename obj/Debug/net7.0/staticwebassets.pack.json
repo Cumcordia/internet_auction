@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\Auctions.bundle.scp.css"
     },
     {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (1).jpeg",
+      "PackagePath": "staticwebassets\\Images\\000000 (1).jpeg"
+    },
+    {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (1).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (1).jpg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (10).jpg",
+      "PackagePath": "staticwebassets\\Images\\000000 (10).jpg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (11).jpg",
+      "PackagePath": "staticwebassets\\Images\\000000 (11).jpg"
     },
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (12).jpg",
@@ -17,8 +29,16 @@
       "PackagePath": "staticwebassets\\Images\\000000 (13).jpg"
     },
     {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (15).jpg",
+      "PackagePath": "staticwebassets\\Images\\000000 (15).jpg"
+    },
+    {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (16).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (16).jpg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (2).jpeg",
+      "PackagePath": "staticwebassets\\Images\\000000 (2).jpeg"
     },
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (2).jpg",
@@ -31,6 +51,14 @@
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (3).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (3).jpg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (3).png",
+      "PackagePath": "staticwebassets\\Images\\000000 (3).png"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (4).jpg",
+      "PackagePath": "staticwebassets\\Images\\000000 (4).jpg"
     },
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (4).png",
@@ -55,6 +83,10 @@
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (8).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (8).jpg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (9).jpg",
+      "PackagePath": "staticwebassets\\Images\\000000 (9).jpg"
     },
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\s-l960 (1).png",
