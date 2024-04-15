@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Auctions.bundle.scp.css"
     },
     {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (1).jfif",
+      "PackagePath": "staticwebassets\\Images\\000000 (1).jfif"
+    },
+    {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (1).jpeg",
       "PackagePath": "staticwebassets\\Images\\000000 (1).jpeg"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (13).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (13).jpg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (14).jpg",
+      "PackagePath": "staticwebassets\\Images\\000000 (14).jpg"
     },
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (15).jpg",
@@ -99,6 +107,14 @@
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\Приколы-для-даунов-разное-рост-8393398.jpeg",
       "PackagePath": "staticwebassets\\Images\\Приколы-для-даунов-разное-рост-8393398.jpeg"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\Снимок экрана 2023-09-20 155322.png",
+      "PackagePath": "staticwebassets\\Images\\Снимок экрана 2023-09-20 155322.png"
+    },
+    {
+      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\Снимок экрана 2024-04-07 155555.png",
+      "PackagePath": "staticwebassets\\Images\\Снимок экрана 2024-04-07 155555.png"
     },
     {
       "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\css\\site.css",

@@ -9,6 +9,7 @@ using Auctions.Data;
 using Auctions.Models;
 using Auctions.Data.Services;
 using System.Security.Claims;
+using auction.Data;
 
 namespace Auctions.Controllers
 {
@@ -32,9 +33,12 @@ namespace Auctions.Controllers
         // GET: Listings
         public async Task<IActionResult> Index(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll();         
+            // Вызываем CloseExpiredListings перед загрузкой Index, чтобы закрыть просроченные лоты
+            await CloseExpiredListings();
+
+            var applicationDbContext = _listingsService.GetAll();
             int pageSize = 3;
-            if(!string.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
                 applicationDbContext = applicationDbContext.Where(a => a.Title.Contains(searchString));
                 return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(), pageNumber ?? 1, pageSize));
@@ -43,15 +47,23 @@ namespace Auctions.Controllers
 
             return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(), pageNumber ?? 1, pageSize));
         }
+
+        // Метод для закрытия лотов, время которых истекло
         public async Task<IActionResult> CloseExpiredListings()
         {
             var expiredListings = await _listingsService.GetExpiredListingsAsync(); // Получить все лоты, время закрытия которых истекло
             foreach (var listing in expiredListings)
             {
-                await _listingsService.CloseBidding(listing.Id); // Закрыть лот
+                await CloseBidding(listing.Id); // Закрыть лот
             }
+
+            // Добавим отладочное сообщение
+            Console.WriteLine("Expired listings closed successfully.");
+
             return RedirectToAction("Index"); // Перенаправить пользователя на главную страницу или другую подходящую страницу
         }
+
+
         public async Task<IActionResult> MyListings(int? pageNumber)
         {
             var applicationDbContext = _listingsService.GetAll();
