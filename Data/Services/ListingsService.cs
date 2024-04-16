@@ -42,7 +42,7 @@ namespace Auctions.Data.Services
         }
         public async Task<IEnumerable<Listing>> GetExpiredListingsAsync()
         {
-            var currentTime = DateTime.UtcNow;
+            var currentTime = DateTime.Now;
             return await _context.Listings.Where(l => l.TimeOfClosure < currentTime && !l.IsSold).ToListAsync();
         }
 

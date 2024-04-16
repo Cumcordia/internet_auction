@@ -33,7 +33,6 @@ namespace Auctions.Controllers
         // GET: Listings
         public async Task<IActionResult> Index(int? pageNumber, string searchString)
         {
-            // Вызываем CloseExpiredListings перед загрузкой Index, чтобы закрыть просроченные лоты
             await CloseExpiredListings();
 
             var applicationDbContext = _listingsService.GetAll();
@@ -47,23 +46,15 @@ namespace Auctions.Controllers
 
             return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(), pageNumber ?? 1, pageSize));
         }
-
-        // Метод для закрытия лотов, время которых истекло
         public async Task<IActionResult> CloseExpiredListings()
         {
-            var expiredListings = await _listingsService.GetExpiredListingsAsync(); // Получить все лоты, время закрытия которых истекло
+            var expiredListings = await _listingsService.GetExpiredListingsAsync();
             foreach (var listing in expiredListings)
             {
-                await CloseBidding(listing.Id); // Закрыть лот
+                await CloseBidding(listing.Id);
             }
-
-            // Добавим отладочное сообщение
-            Console.WriteLine("Expired listings closed successfully.");
-
-            return RedirectToAction("Index"); // Перенаправить пользователя на главную страницу или другую подходящую страницу
+            return Ok("Expired listings closed successfully.");
         }
-
-
         public async Task<IActionResult> MyListings(int? pageNumber)
         {
             var applicationDbContext = _listingsService.GetAll();
@@ -136,7 +127,6 @@ namespace Auctions.Controllers
             }
             return View(listing);
         }
-
         [HttpPost]
         public async Task<ActionResult> AddBid([Bind("Id, Price, ListingId, IdentityUserId")] Bid bid)
         {

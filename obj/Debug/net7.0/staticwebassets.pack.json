@@ -1,359 +1,367 @@
 {
   "Files": [
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Auctions.bundle.scp.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Auctions.bundle.scp.css",
       "PackagePath": "staticwebassets\\Auctions.bundle.scp.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (1).jfif",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (1).jfif",
       "PackagePath": "staticwebassets\\Images\\000000 (1).jfif"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (1).jpeg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (1).jpeg",
       "PackagePath": "staticwebassets\\Images\\000000 (1).jpeg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (1).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (1).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (1).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (10).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (10).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (10).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (11).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (11).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (11).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (12).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (12).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (12).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (13).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (13).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (13).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (14).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (14).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (14).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (15).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (15).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (15).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (16).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (16).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (16).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (2).jpeg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (2).jpeg",
       "PackagePath": "staticwebassets\\Images\\000000 (2).jpeg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (2).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (2).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (2).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (2).png",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (2).png",
       "PackagePath": "staticwebassets\\Images\\000000 (2).png"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (3).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (3).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (3).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (3).png",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (3).png",
       "PackagePath": "staticwebassets\\Images\\000000 (3).png"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (4).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (4).jpeg",
+      "PackagePath": "staticwebassets\\Images\\000000 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (4).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (4).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (4).png",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (4).png",
       "PackagePath": "staticwebassets\\Images\\000000 (4).png"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (5).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (5).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (5).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (5).png",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (5).png",
       "PackagePath": "staticwebassets\\Images\\000000 (5).png"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (6).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (6).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (6).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (7).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (7).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (7).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (8).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (8).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (8).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\000000 (9).jpg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\000000 (9).jpg",
       "PackagePath": "staticwebassets\\Images\\000000 (9).jpg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\s-l960 (1).png",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\img_0_911_716_0_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\img_0_911_716_0_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\s-l960 (1).png",
       "PackagePath": "staticwebassets\\Images\\s-l960 (1).png"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\Приколы-для-даунов-разное-8391391.jpeg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\Приколы-для-даунов-разное-8391391.jpeg",
       "PackagePath": "staticwebassets\\Images\\Приколы-для-даунов-разное-8391391.jpeg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\Приколы-для-даунов-разное-рост-8393398.jpeg",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\Приколы-для-даунов-разное-рост-8393398.jpeg",
       "PackagePath": "staticwebassets\\Images\\Приколы-для-даунов-разное-рост-8393398.jpeg"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\Снимок экрана 2023-09-20 155322.png",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\Снимок экрана 2023-09-20 155322.png",
       "PackagePath": "staticwebassets\\Images\\Снимок экрана 2023-09-20 155322.png"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\Images\\Снимок экрана 2024-04-07 155555.png",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\Images\\Снимок экрана 2024-04-07 155555.png",
       "PackagePath": "staticwebassets\\Images\\Снимок экрана 2024-04-07 155555.png"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\admin\\desk\\internet_auction\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\ramy\\Desktop\\Новая папка\\internet_auction\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
