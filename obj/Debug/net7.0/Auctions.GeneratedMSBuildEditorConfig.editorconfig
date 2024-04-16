@@ -9,95 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Auctions
 build_property.RootNamespace = Auctions
-build_property.ProjectDir = F:\admin\desk\internet_auction\
+build_property.ProjectDir = C:\Users\eldar\source\repos\internet_auction\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\admin\desk\internet_auction
+build_property.MSBuildProjectDirectory = C:\Users\eldar\source\repos\internet_auction
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/admin/desk/internet_auction/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Home/Index.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Antiques.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Antiques.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcQW50aXF1ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Art.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Art.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcQXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Books.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Books.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcQm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Create.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Delete.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Details.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Edit.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Fashion.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Fashion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcRmFzaGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Index.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Music.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Music.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcTXVzaWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/MyBids.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/MyBids.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcTXlCaWRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Tech.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Tech.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcVGVjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Listings/Vintage.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Listings/Vintage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGluZ3NcVmludGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Shared/Error.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/_ViewImports.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/_ViewStart.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/admin/desk/internet_auction/Views/Shared/_Layout.cshtml]
+[C:/Users/eldar/source/repos/internet_auction/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jkmmclmsm1
