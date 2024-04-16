@@ -158,6 +158,94 @@ namespace Auctions.Controllers
             return View("Details", listing);
         }
 
+        public async Task<IActionResult> Tech(int? pageNumber, string searchString)
+        {
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Техника" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+
+
+        public async Task<IActionResult> Vintage(int? pageNumber, string searchString)
+        {
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Винтаж" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+        public async Task<IActionResult> Music(int? pageNumber, string searchString)
+        {
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Музыка" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+        public async Task<IActionResult> Art(int? pageNumber, string searchString)
+        {
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Искусство" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+        public async Task<IActionResult> Books(int? pageNumber, string searchString)
+        {
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Книги" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+        public async Task<IActionResult> Fashion(int? pageNumber, string searchString)
+        {
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Мода" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+        public async Task<IActionResult> Antiques(int? pageNumber, string searchString)
+        {
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Антиквариат" && !l.IsSold); // Filter by category and active listings
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(l => l.Title.Contains(searchString));
+            }
+
+            int pageSize = 3;
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+
+
         //// GET: Listings/Edit/5
         //public async Task<IActionResult> Edit(int? id)
         //{

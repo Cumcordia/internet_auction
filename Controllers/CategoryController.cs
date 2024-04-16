@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿/*using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Auctions.Models;
 using Auctions.Data.Services;
@@ -17,7 +17,7 @@ namespace Auctions.Controllers
 
         public async Task<IActionResult> Tech(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Tech" && !l.IsSold); // Filter by category and active listings
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Техника" && !l.IsSold); // Filter by category and active listings
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -31,7 +31,7 @@ namespace Auctions.Controllers
 
         public async Task<IActionResult> Vintage(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Vintage" && !l.IsSold); // Filter by category and active listings
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Винтаж" && !l.IsSold); // Filter by category and active listings
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -43,7 +43,7 @@ namespace Auctions.Controllers
         }
         public async Task<IActionResult> Music(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Music" && !l.IsSold); // Filter by category and active listings
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Музыка" && !l.IsSold); // Filter by category and active listings
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -55,7 +55,7 @@ namespace Auctions.Controllers
         }
         public async Task<IActionResult> Art(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Art" && !l.IsSold); // Filter by category and active listings
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Искусство" && !l.IsSold); // Filter by category and active listings
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -67,7 +67,7 @@ namespace Auctions.Controllers
         }
         public async Task<IActionResult> Books(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Books" && !l.IsSold); // Filter by category and active listings
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Книги" && !l.IsSold); // Filter by category and active listings
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -79,7 +79,7 @@ namespace Auctions.Controllers
         }
         public async Task<IActionResult> Fashion(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Fashion" && !l.IsSold); // Filter by category and active listings
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Мода" && !l.IsSold); // Filter by category and active listings
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -91,7 +91,7 @@ namespace Auctions.Controllers
         }
         public async Task<IActionResult> Antiques(int? pageNumber, string searchString)
         {
-            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Antique" && !l.IsSold); // Filter by category and active listings
+            var applicationDbContext = _listingsService.GetAll().Where(l => l.Category.Name == "Антиквариат" && !l.IsSold); // Filter by category and active listings
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -104,3 +104,4 @@ namespace Auctions.Controllers
 
     }
 }
+*/

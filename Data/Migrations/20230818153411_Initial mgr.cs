@@ -145,13 +145,13 @@ namespace Auctions.Data.Migrations
             columns: new[] { "Id", "Name" },
             values: new object[,]
             {
-                { 1, "Tech" },
-                { 2, "Vintage" },
-                { 3, "Art" },
-                { 4, "Books" },
-                { 5, "Fashion" },
-                { 6, "Music" },
-                { 7, "Antique" }
+                { 1, "Техника" },
+                { 2, "Винтаж" },
+                { 3, "Искусство" },
+                { 4, "Книги" },
+                { 5, "Мода" },
+                { 6, "Музыка" },
+                { 7, "Антиквариат" }
             },
             columnTypes: new[] { "int", "varchar(450)" }
             ) ;

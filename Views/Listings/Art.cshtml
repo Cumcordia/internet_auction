@@ -1,31 +1,31 @@
 ﻿@model PaginatedList<Auctions.Models.Listing>
 @{
-    ViewData["Title"] = "Музыка";
+    ViewData["Title"] = "Искусство";
 }
 
 <div class="container-category">
 
     <div class="row-category">
         <div class="col-category">
-            <a asp-action="Tech" asp-controller="Category" class="btn btn-outline-primary">Техника</a>
+            <a asp-action="Tech" asp-controller="Listings" class="btn btn-outline-primary btn-category">Техника</a>
         </div>
         <div class="col-category">
-            <a asp-action="Vintage" asp-controller="Category" class="btn btn-outline-primary">Винтаж</a>
+            <a asp-action="Vintage" asp-controller="Listings" class="btn btn-outline-primary btn-category">Винтаж</a>
         </div>
         <div class="col-category">
-            <a asp-action="Art" asp-controller="Category" class="btn btn-outline-primary">Искусство</a>
+            <a asp-action="Art" asp-controller="Listings" class="btn btn-outline-primary btn-category">Искусство</a>
         </div>
         <div class="col-category">
-            <a asp-action="Books" asp-controller="Category" class="btn btn-outline-primary">Книги</a>
+            <a asp-action="Books" asp-controller="Listings" class="btn btn-outline-primary btn-category">Книги</a>
         </div>
         <div class="col-category">
-            <a asp-action="Fashion" asp-controller="Category" class="btn btn-outline-primary">Мода</a>
+            <a asp-action="Fashion" asp-controller="Listings" class="btn btn-outline-primary btn-category">Мода</a>
         </div>
         <div class="col-category">
-            <a asp-action="Music" asp-controller="Category" class="btn btn-outline-primary">Музыка</a>
+            <a asp-action="Music" asp-controller="Listings" class="btn btn-outline-primary btn-category">Музыка</a>
         </div>
         <div class="col-category">
-            <a asp-action="Antiques" asp-controller="Category" class="btn btn-outline-primary">Антиквариат</a>
+            <a asp-action="Antiques" asp-controller="Listings" class="btn btn-outline-primary btn-category">Антиквариат</a>
         </div>
     </div>
 </div>
@@ -54,7 +54,6 @@
 {
     <p>На данный момент никто не разместил лот</p>
 }
-
 
 @{
     var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
